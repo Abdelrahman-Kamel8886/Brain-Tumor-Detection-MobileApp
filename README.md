@@ -2,7 +2,7 @@
 This app depends on Three CNN Models to make report on the patient's condition.
 ## Ui/Ux Designed By Mostafa Hussien 
 ### Figma Link : https://www.figma.com/design/37s32CG2afhFUedX2iuBLw/BTD
-### Cotact With Mostafa : https://linktr.ee/mosta7ahussi3n
+### Contact With Mostafa : https://linktr.ee/mosta7ahussi3n
 ## FastApi
 app uses an api to get all scan results.
 ### FastApi Project Link : https://github.com/Abdelrahman-Kamel8886/Brain-Tumor-Detection-FastApi
@@ -55,7 +55,8 @@ app uses an api to get all scan results.
 ![Screenshot_2022-07-17-17-06-15-91_7ec8192640c8b0907e1d92af89b9c133](https://github.com/Abdelrahman-Kamel8886/Brain-Tumor-Detection-MobileApp/assets/126878089/76a505cd-b717-40e5-9294-0f22293eaf4c)
 ![Screenshot_2022-07-17-17-07-53-62_7ec8192640c8b0907e1d92af89b9c133](https://github.com/Abdelrahman-Kamel8886/Brain-Tumor-Detection-MobileApp/assets/126878089/38cae27b-ca43-49ed-9fd1-06bffd3002e9)
 
-
+## Author
+Abdelrahman Kamel
 
 
 
