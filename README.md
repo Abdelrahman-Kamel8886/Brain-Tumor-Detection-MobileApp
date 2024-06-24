@@ -1,4 +1,4 @@
-![Screenshot_2022-07-17-16-41-34-48_7ec8192640c8b0907e1d92af89b9c133](https://github.com/Abdelrahman-Kamel8886/Brain-Tumor-Detection-MobileApp/assets/126878089/ba128141-91c7-40b2-907b-f8ce5d322ac7)# BTD (Brain Tumor Detiction) Mobile Application.
+# BTD (Brain Tumor Detiction) Mobile Application.
 This app depends on Three CNN Models to make report on the patient's condition.
 ## Ui/Ux Designed By Mostafa Hussien 
 ### Figma Link : https://www.figma.com/design/37s32CG2afhFUedX2iuBLw/BTD
