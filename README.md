@@ -53,6 +53,8 @@ app uses an api to get all scan results.
 
 ### Chat
 ![Screenshot_2022-07-17-17-06-15-91_7ec8192640c8b0907e1d92af89b9c133](https://github.com/Abdelrahman-Kamel8886/Brain-Tumor-Detection-MobileApp/assets/126878089/76a505cd-b717-40e5-9294-0f22293eaf4c)
+![Screenshot_2022-07-17-17-07-53-62_7ec8192640c8b0907e1d92af89b9c133](https://github.com/Abdelrahman-Kamel8886/Brain-Tumor-Detection-MobileApp/assets/126878089/38cae27b-ca43-49ed-9fd1-06bffd3002e9)
+
 
 
 
