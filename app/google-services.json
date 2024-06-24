@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "205298644615",
+    "firebase_url": "https://braintumor-b4d78-default-rtdb.firebaseio.com",
+    "project_id": "braintumor-b4d78",
+    "storage_bucket": "braintumor-b4d78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205298644615:android:8a886155ca2782cc0caa22",
+        "android_client_info": {
+          "package_name": "com.abdo.braintumordetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205298644615-8vadg3np809n26pmsbs2o9vr3mg29ps6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdo.braintumordetection",
+            "certificate_hash": "fee63fc6133a119034f8621573313bad54157e6e"
+          }
+        },
+        {
+          "client_id": "205298644615-p4gafqav93vkbr20lgsjn3an4f6ffk25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-LkznvTDRnxu166QCIH3GfQdvxVphXAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205298644615-p4gafqav93vkbr20lgsjn3an4f6ffk25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

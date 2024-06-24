@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+
+
+    <TextView
+        android:id="@+id/drreg_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Create New Account"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="50sp"
+        />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/drreg_txt"
+        app:layout_constraintTop_toBottomOf="@id/drreg_txt"
+        android:text="Full Name"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/colornew1"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/drreg_txt"
+        app:layout_constraintTop_toBottomOf="@id/card1"
+        android:text="Email Address"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/colornew1"
+        android:layout_marginTop="10sp"
+        />
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/drreg_txt"
+        app:layout_constraintTop_toBottomOf="@id/card2"
+        android:text="Phone Number"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/colornew1"
+        android:layout_marginTop="10sp"
+        />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/drreg_txt"
+        app:layout_constraintTop_toBottomOf="@id/card3"
+        android:text="Password"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/colornew1"
+        android:layout_marginTop="10sp"
+        />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/drreg_txt"
+        app:layout_constraintTop_toBottomOf="@id/card4"
+        android:text="Birthday"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/colornew1"
+        android:layout_marginTop="10sp"
+        />
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/drreg_txt"
+        app:layout_constraintTop_toBottomOf="@id/card5"
+        android:text="Personal Image"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/colornew1"
+        android:layout_marginTop="10sp"
+        />
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card1"
+        android:layout_width="0dp"
+        android:layout_height="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt1"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="10sp"
+        app:cardCornerRadius="10sp"
+        app:strokeWidth="0dp"
+        app:strokeColor="@color/color1"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ebefff">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ebefff"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                >
+                <EditText
+                    android:id="@+id/drreg_usr_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colornew2"
+                    android:inputType="textAutoComplete"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card2"
+        android:layout_width="0dp"
+        android:layout_height="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="10sp"
+        app:cardCornerRadius="10sp"
+        app:strokeWidth="0dp"
+        app:strokeColor="@color/color1"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ebefff">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ebefff"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                >
+                <EditText
+                    android:id="@+id/drreg_mail_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colornew2"
+                    android:inputType="textEmailAddress"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card3"
+        android:layout_width="0dp"
+        android:layout_height="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt3"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="10sp"
+        app:cardCornerRadius="10sp"
+        app:strokeWidth="0dp"
+        app:strokeColor="@color/color1"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ebefff">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ebefff"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                >
+                <EditText
+                    android:id="@+id/drreg_phone_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colornew2"
+                    android:textStyle="bold"
+                    android:inputType="phone"
+                    android:digits="0123456789"
+                    android:maxLength="11"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card4"
+        android:layout_width="0dp"
+        android:layout_height="50sp"
+        app:layout_constraintStart_toStartOf="@id/card1"
+        app:layout_constraintTop_toBottomOf="@id/txt4"
+        app:layout_constraintEnd_toEndOf="@id/card1"
+        android:layout_marginTop="10sp"
+        app:cardCornerRadius="10sp"
+        app:strokeWidth="0dp"
+        app:strokeColor="@color/color1"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ebefff"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/colornew1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+
+                >
+                <EditText
+                    android:id="@+id/drreg_pass_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colornew2"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:inputType="textPassword"
+                    android:textColor="@color/black"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card5"
+        android:layout_width="0dp"
+        android:layout_height="50sp"
+        android:layout_marginTop="10sp"
+        android:paddingHorizontal="20sp"
+        app:cardCornerRadius="10sp"
+        app:layout_constraintEnd_toEndOf="@id/card1"
+        app:layout_constraintStart_toStartOf="@id/card1"
+        app:layout_constraintTop_toBottomOf="@id/txt5"
+        app:strokeColor="@color/color1"
+        app:strokeWidth="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colornew2"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+                <AutoCompleteTextView
+                    android:id="@+id/birth_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colornew2"
+                    android:drawableEnd="@drawable/ic_baseline_calendar_month_24"
+                    android:inputType="none"
+                    android:paddingHorizontal="15sp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card6"
+        android:layout_width="0dp"
+        android:layout_height="50sp"
+        android:layout_marginTop="10sp"
+        android:paddingHorizontal="20sp"
+        app:cardCornerRadius="10sp"
+        app:layout_constraintEnd_toEndOf="@id/card1"
+        app:layout_constraintStart_toStartOf="@id/card1"
+        app:layout_constraintTop_toBottomOf="@id/txt6"
+        app:strokeColor="@color/color1"
+        app:strokeWidth="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colornew2"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+                <AutoCompleteTextView
+                    android:id="@+id/image_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colornew2"
+                    android:drawableEnd="@drawable/ic_baseline_image_24"
+                    android:inputType="none"
+                    android:paddingHorizontal="15sp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+
+
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/drreg_btn"
+        android:layout_width="0dp"
+        android:layout_height="60sp"
+        app:layout_constraintStart_toStartOf="@id/card1"
+        app:layout_constraintEnd_toEndOf="@id/card1"
+        app:layout_constraintTop_toBottomOf="@id/card6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:backgroundTint="@color/colornew1"
+        android:text="Sign up"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        app:cornerRadius="10sp"
+        />
+
+    <ProgressBar
+        android:id="@+id/bar"
+        android:layout_width="50sp"
+        android:layout_height="45sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/card3"
+        app:layout_constraintBottom_toBottomOf="@id/card4"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

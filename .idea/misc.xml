@@ -1,0 +1,75 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.36875" />
+        <entry key="..\:/brainTumorDetection/app/src/main/res/drawable-v24/edittext2.xml" value="0.21770833333333334" />
+        <entry key="..\:/brainTumorDetection/app/src/main/res/layout/activity_main.xml" value="0.28125" />
+        <entry key="..\:/brainTumorDetection/app/src/main/res/layout/fragment_add_mri.xml" value="0.26132246376811596" />
+        <entry key="..\:/brainTumorDetection/app/src/main/res/layout/fragment_base_chat.xml" value="0.24003623188405798" />
+        <entry key="..\:/brainTumorDetection/app/src/main/res/layout/fragment_dr_home.xml" value="0.2545289855072464" />
+        <entry key="..\:/brainTumorDetection/app/src/main/res/layout/fragment_login.xml" value="0.33" />
+        <entry key="..\:/brainTumorDetection/app/src/main/res/layout/fragment_message.xml" value="0.26132246376811596" />
+        <entry key="..\:/brainTumorDetection/app/src/main/res/layout/fragment_patient_home.xml" value="0.26811594202898553" />
+        <entry key="..\:/brainTumorDetection/app/src/main/res/layout/fragment_reg.xml" value="0.2545289855072464" />
+        <entry key="..\:/brainTumorDetection/app/src/main/res/layout/fragment_scan.xml" value="0.24728260869565216" />
+        <entry key="..\:/brainTumorDetection/app/src/main/res/layout/item_mri.xml" value="0.26132246376811596" />
+        <entry key="..\:/brainTumorDetection/app/src/main/res/layout/item_users.xml" value="0.24003623188405798" />
+        <entry key="app/src/main/res/drawable-v24/edittext2.xml" value="0.3515" />
+        <entry key="app/src/main/res/drawable-v24/gradientc1.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable-v24/gradientc2.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable-v24/gradientc3.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable-v24/gradientc4.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable-v24/tab2.xml" value="0.281" />
+        <entry key="app/src/main/res/drawable/chat1_bub.xml" value="0.2825" />
+        <entry key="app/src/main/res/drawable/chat2_bub.xml" value="0.2825" />
+        <entry key="app/src/main/res/drawable/gradient.xml" value="0.2635" />
+        <entry key="app/src/main/res/drawable/gradientc4.xml" value="0.254" />
+        <entry key="app/src/main/res/drawable/gradientc5.xml" value="0.254" />
+        <entry key="app/src/main/res/drawable/sheet_background.xml" value="0.2745" />
+        <entry key="app/src/main/res/drawable/tab.xml" value="0.254" />
+        <entry key="app/src/main/res/layout/Date_dialog.xml" value="0.19701086956521738" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/dialog.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_add_mri.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/fragment_base_chat.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/fragment_dr_home.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/fragment_message.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_mri_images.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_patient_details.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/fragment_patient_home.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/fragment_patientinfo.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_patients.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/fragment_reg.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/fragment_report.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_report_base.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_reports.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_result.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_scan.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/fragment_scan_result.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.27807971014492755" />
+        <entry key="app/src/main/res/layout/fragment_show_result.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_write_report.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/gradient.xml" value="0.3328804347826087" />
+        <entry key="app/src/main/res/layout/home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_chat_me.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/item_chat_other.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/item_image.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/item_mri.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/item_patients.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/item_report.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/item_titles.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/item_users.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.35625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
