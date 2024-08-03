@@ -1,4 +1,5 @@
 # Brain Tumor Detection Mobile App
+![tumor2](https://github.com/user-attachments/assets/0a43bfeb-5d71-4ae0-ad9e-3e70a5a68030)
 
 ## Overview
 The Brain Tumor Detection Mobile App is a sophisticated application designed to assist in the early detection of brain tumors using advanced image processing and machine learning techniques. The app integrates with a dedicated API to process MRI images, manage patient details, save reports, and facilitate communication with doctors, providing a comprehensive solution for both diagnosis and follow-up care.
