@@ -1,15 +1,70 @@
-# BTD (Brain Tumor Detiction) Mobile Application.
-This app depends on Three CNN Models to make report on the patient's condition.
-## Ui/Ux Designed By Mostafa Hussien 
-### Figma Link : https://www.figma.com/design/37s32CG2afhFUedX2iuBLw/BTD
-### Contact With Mostafa : https://linktr.ee/mosta7ahussi3n
-## FastApi
+# Brain Tumor Detection Mobile App
+
+## Overview
+The Brain Tumor Detection Mobile App is a sophisticated application designed to assist in the early detection of brain tumors using advanced image processing and machine learning techniques. The app integrates with a dedicated API to process MRI images, manage patient details, save reports, and facilitate communication with doctors, providing a comprehensive solution for both diagnosis and follow-up care.
+
+## Features
+- **Image Upload:** Upload brain MRI images for analysis.
+- **Tumor Detection:** Utilize machine learning models through the integrated API to detect and classify brain tumors.
+- **Patient Details Management:** Add and manage patient details associated with MRI scans.
+- **Report Saving:** Save and view detailed reports of the analysis results.
+- **Profile Page:** Access and manage user profile information.
+- **Chat Page:** Communicate with doctors through an integrated messaging system.
+- **Results Visualization:** Display detection results with visual highlights of tumor regions.
+- **User-Friendly Interface:** Intuitive design for easy navigation and usage.
+
+## Technologies Used
+- **Programming Languages:** Java
+- **Android Development:** Android SDK
+- **Network Requests:** Retrofit
+- **Database:** Firebase Realtime Database, Room Database
+- **Authentication:** Firebase Authentication
+- **Storage:** Firebase Storage
+- **Preferences:** SharedPreferences
+- **Reactive Programming:** RxJava
+- **Messaging:** Firebase Realtime Database
+- **Version Control:** Git , Github
+- **IDE:** Android Studio
+## API
 app uses an api to get all scan results.
-### FastApi Project Link : https://github.com/Abdelrahman-Kamel8886/Brain-Tumor-Detection-FastApi
+- **Link :** [FastApi](https://github.com/Abdelrahman-Kamel8886/Brain-Tumor-Detection-FastApi)
+
+## Installation
+To get started with the Brain Tumor Detection Mobile App, follow these steps:
+
+## Prerequisites
+- **Android Studio (for Android development)**
+- **An Android device or emulator for testing**
+- **Required dependencies and SDKs**
+  
+## Clone the Repository
+      ```bash
+      git clone https://github.com/Abdelrahman-Kamel8886/Brain-Tumor-Detection-MobileApp.git
+
+## Setup and Configuration
+1. **Open Android Studio and import the project.**
+2. **Sync the project with Gradle files.**
+3. **Configure the Firebase services by adding your google-services.json file to the app directory.**
+4. **Set up Firebase Authentication, Realtime Database, and Storage as described in the Firebase documentation.**
+5. **Set up Room Database and SharedPreferences for local data storage and management.**
+6. **Integrate Retrofit for network requests and configure it to communicate with the Brain Tumor Detection FastAPI.**
+7. **Integrate RxJava for reactive programming and data handling.**
+
+## Running the App
+1. **Connect your Android device or start an emulator.**
+2. **Click on the "Run" button in Android Studio to build and deploy the app to your device.**
+
+## Usage
+1. **Launch the app on your device.**
+2. **Navigate to the image upload section and select a brain MRI image.**
+3. **Add patient details associated with the MRI scan.**
+4. **The app will send the MRI image to the Brain Tumor Detection FastAPI for analysis and display the results, including any detected tumors.**
+5. **Save and view detailed reports of the analysis results.**
+6. **Use the profile page to manage your personal information.**
+7. **Access the chat page to communicate with doctors for further consultation.**
+8. **Review the results and consult with medical professionals for comprehensive analysis and advice.**
 
 ## Screenshots
-
-
 
 ### Login
 ![Screenshot_2022-07-17-16-41-34-48_7ec8192640c8b0907e1d92af89b9c133](https://github.com/Abdelrahman-Kamel8886/Brain-Tumor-Detection-MobileApp/assets/126878089/386ac849-9ad4-4d48-8ced-1addfc1ae6f4)
@@ -55,10 +110,24 @@ app uses an api to get all scan results.
 ![Screenshot_2022-07-17-17-06-15-91_7ec8192640c8b0907e1d92af89b9c133](https://github.com/Abdelrahman-Kamel8886/Brain-Tumor-Detection-MobileApp/assets/126878089/76a505cd-b717-40e5-9294-0f22293eaf4c)
 ![Screenshot_2022-07-17-17-07-53-62_7ec8192640c8b0907e1d92af89b9c133](https://github.com/Abdelrahman-Kamel8886/Brain-Tumor-Detection-MobileApp/assets/126878089/38cae27b-ca43-49ed-9fd1-06bffd3002e9)
 
-## Author
-Abdelrahman Kamel
+## UI/UX Designed By
+- ### Mostafa Hussien
+   - **Figma Link: [BTD Design](https://www.figma.com/design/37s32CG2afhFUedX2iuBLw/BTD)**
+   - **Contact Mostafa: [Mostafa's Linktree](https://linktr.ee/mosta7ahussi3n)**
+## Contributing
+Contributions are welcome! If you would like to contribute to the development of the Brain Tumor Detection Mobile App, please follow these guidelines:
 
+1. **Fork the repository..**
+2. **Create a new branch for your feature or bug fix..**
+3. **Commit your changes with descriptive messages..**
+4. **Push your branch to your forked repository..**
+5. **Submit a pull request with a clear description of the changes.**
 
+## Contact
+For any questions or inquiries, please contact:
+- ### Abdelrahman Kamel
+  - **LinkedIn: [LinkedIn Profile](www.linkedin.com/in/abdelrahman-kamel-7a7457200)**
+  - **Email: abdelrahmankamel8886@gmail.com**
 
 
 
